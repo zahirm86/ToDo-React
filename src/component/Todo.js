@@ -80,7 +80,7 @@ const Todo = () => {
           <figure>
             <img src="#" alt="" />
             <figcaption>Add Your List Here ✌</figcaption>
-          </figure>
+          </figure> <br />
           <div className="addItem-container">
             <div className="addItems">
               <input
