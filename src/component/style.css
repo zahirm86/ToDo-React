@@ -51,16 +51,21 @@ figcaption {
   color: #555;
 }
 
+.addItem-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px; /* Adjust spacing between input and button */
+}
+
 .addItems {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background: #f4f4f4;
-  padding: 12px;
-  border-radius: 10px;
-  width: 100%;
-  margin-top: 20px;
-  border: 1px solid #ddd;
+  padding: 0px;
+  border-radius: 0px;
+  flex: 1;
+  border: 1px solid #121111;
 }
 
 .form-control {
@@ -70,6 +75,7 @@ figcaption {
   flex: 1;
   padding: 12px;
   font-size: 16px;
+  width: 100%;
 }
 
 .add-btn {
@@ -77,6 +83,7 @@ figcaption {
   cursor: pointer;
   color: #6a0572;
 }
+
 
 .add-btn:hover {
   color: #a4508b;
